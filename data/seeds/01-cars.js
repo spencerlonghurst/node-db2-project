@@ -33,7 +33,7 @@ const cars = [
 //     })
 // }
 
-// Or you can use the next es7 version with async/await:
+// Or you can use the new es7 version with async/await:
 
 exports.seed = async function (knex) {
   await knex('cars').truncate()
