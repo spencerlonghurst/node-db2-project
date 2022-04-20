@@ -4,7 +4,7 @@ exports.up = function (knex) {
     tbl.string('vin', 17).notNullable().unique();
     tbl.string('make').notNullable();
     tbl.string('model').notNullable();
-    tbl.numeric('mileage').notNullable();
+    tbl.integer('mileage').notNullable();
     tbl.string('title');
     tbl.string('transmission');
   })
